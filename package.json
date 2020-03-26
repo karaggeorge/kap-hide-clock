@@ -1,0 +1,40 @@
+{
+	"name": "kap-hide-clock",
+	"version": "1.0.0",
+	"description": "Hide the clock while recording",
+	"license": "MIT",
+	"repository": "karaggeorge/kap-hide-clock",
+	"author": {
+		"name": "George Karagkiaouris",
+		"email": "gkaragkiaouris2@gmail.com",
+		"url": "https://gkaragkiaouris.tech"
+	},
+	"scripts": {
+		"test": "xo"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"kap-plugin",
+		"hide",
+		"clock",
+		"date",
+		"time"
+	],
+	"kapVersion": ">=3.2.0",
+	"dependencies": {
+		"execa": "^4.0.0"
+	},
+	"devDependencies": {
+		"ava": "^2.3.0",
+		"kap-plugin-test": "^0.5.0",
+		"xo": "^0.24.0"
+	},
+	"peerDependencies": {
+		"electron": "*"
+	},
+	"xo": {
+		"space": 2
+	}
+}
