@@ -26,19 +26,19 @@ const willStartRecording = async ({state}) => {
       .join('\n');
 
     await writeDefaults(defaultsWithoutClock);
-	}
+  }
 
-	state.wasDatoRunning = await isAppRunning('com.sindresorhus.Dato');
-	if (state.wasDatoRunning) {
-		await terminateApp('com.sindresorhus.Dato');
-	}
+  state.wasDatoRunning = await isAppRunning('com.sindresorhus.Dato');
+  if (state.wasDatoRunning) {
+    await terminateApp('com.sindresorhus.Dato');
+  }
 };
 
 const didStopRecording = async ({state}) => {
-	systemPreferences.postNotification('com.wulkano.kap.hideclock.didStopRecording', {});
+  systemPreferences.postNotification('com.wulkano.kap.hideclock.didStopRecording', {});
 
-	if (state.wasDatoRunning) {
-		await launchApp('com.sindresorhus.Dato');
+  if (state.wasDatoRunning) {
+    await launchApp('com.sindresorhus.Dato');
   }
 
   if (state.defaults) {

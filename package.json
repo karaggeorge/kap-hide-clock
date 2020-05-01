@@ -1,7 +1,7 @@
 {
 	"name": "kap-hide-clock",
 	"version": "1.1.2",
-	"description": "Hide the clock while recording",
+	"description": "Hide the menu bar clock or Dato while recording",
 	"license": "MIT",
 	"repository": "karaggeorge/kap-hide-clock",
 	"author": {

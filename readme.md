@@ -1,6 +1,6 @@
 # kap-hide-clock [![Build Status](https://travis-ci.org/karaggeorge/kap-hide-clock.svg?branch=master)](https://travis-ci.org/karaggeorge/kap-hide-clock)
 
-> [Kap](https://github.com/wulkano/kap) plugin - Hide the clock while recording
+> [Kap](https://github.com/wulkano/kap) plugin - Hide the menu bar clock or [Dato](https://sindresorhus.com/dato) while recording
 
 This hides the menu bar date/time widget while recording, which can be useful:
 1. When you don't want to show that you recorded something at 4 AM.
@@ -12,11 +12,11 @@ In the `Kap` menu, go to `Preferences…`, select the `Plugins` pane, find this 
 
 ## Usage
 
-In the cropper or by right clicking the tray icon, click the `…` icon, then `Plugins` and make sure `Hide Clock` is enabled.
+In the cropper or by right-clicking the tray icon, click the `…` icon, then `Plugins` and make sure `Hide Clock` is enabled.
 
 ## Demo
 
-<img src="demo.gif">
+![](demo.gif)
 
 ## Integration
 
