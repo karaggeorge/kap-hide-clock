@@ -1,6 +1,6 @@
 {
 	"name": "kap-hide-clock",
-	"version": "1.1.0",
+	"version": "1.1.1",
 	"description": "Hide the clock while recording",
 	"license": "MIT",
 	"repository": "karaggeorge/kap-hide-clock",
