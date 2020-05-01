@@ -24,7 +24,8 @@
 	],
 	"kapVersion": ">=3.2.0",
 	"dependencies": {
-		"execa": "^4.0.0"
+		"execa": "^4.0.0",
+		"macos-manage-apps": "^1.1.0"
 	},
 	"devDependencies": {
 		"ava": "^2.3.0",
