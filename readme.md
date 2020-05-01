@@ -14,6 +14,10 @@ In the `Kap` menu, go to `Preferences…`, select the `Plugins` pane, find this 
 
 In the cropper or by right clicking the tray icon, click the `…` icon, then `Plugins` and make sure `Hide Clock` is enabled.
 
+## Demo
+
+<img src="demo.gif">
+
 ## Integration
 
 If you would like your date/time app to integrate with this, you can subscribe to the following notifications posted by the plugin:
